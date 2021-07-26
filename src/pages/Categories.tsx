@@ -36,7 +36,7 @@ export default function Categories() {
         </Link>
       </div>
       <div className="flex justify-center bg-gray-200 py-40  rounded-3xl shadow-lg border">
-        <div className="grid grid-cols-3 gap-40">
+        <div className="grid md:grid-cols-3 sm:grid-cols-12 gap-40">
           {categories &&
             categories.map((category) => (
               <div>
